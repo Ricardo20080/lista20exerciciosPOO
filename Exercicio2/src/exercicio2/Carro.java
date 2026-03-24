@@ -1,14 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exercicio2;
 
-/**
- *
- * @author aluno.saolucas
- */
-public class Carro {
-    
+public class Carro extends Veiculo {
+    private int numeroDePortas;
+
+    public Carro(String marca, String modelo, int ano, int numeroDePortas) {
+        super(marca, modelo, ano);
+        this.numeroDePortas = numeroDePortas;
+    }
+
+    public int getNumeroDePortas() {
+        return numeroDePortas;
+    }
+    public void setNumeroDePortas(int numeroDePortas) {
+        this.numeroDePortas = numeroDePortas;
+    }
+
+    @Override
+    public void mover() {
+        System.out.println(getMarca() + " " + getModelo() + " está dirigindo na estrada.");
+    }
 }

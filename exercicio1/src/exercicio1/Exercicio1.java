@@ -6,10 +6,10 @@ public class Exercicio1 {
     public static void main(String[] args) {
         
         
- Animal a1 = new Cachorro("Rex", 3, 12.5, "Pastor Alemão");
-        Animal a2 = new Gato("Mimi", 2, 4.0, "Branco");
+ Animal a1 = new Cachorro("spike", 3, 12.5, "Pastor Alemão");
+        Animal a2 = new Gato("Marry", 2, 4.0, "Branco");
         Animal a3 = new Vaca("Bela", 5, 350.0, "Fazenda Verde");
-        Animal a4 = new Cavalo("Relâmpago", 4, 400.0, "Castanha");
+        Animal a4 = new Cavalo("branquinho", 4, 400.0, "Castanha");
 
     
         System.out.println("Nome: " + a1.getNome() + ", Idade: " + a1.getIdade() + ", Peso: " + a1.getPeso());

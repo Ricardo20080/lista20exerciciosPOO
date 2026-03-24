@@ -1,14 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package exercicio2;
 
-/**
- *
- * @author aluno.saolucas
- */
-public class Onibus {
-    
+public class Onibus extends Veiculo {
+    private int capacidadePassageiros;
+
+    public Onibus(String marca, String modelo, int ano, int capacidadePassageiros) {
+        super(marca, modelo, ano);
+        this.capacidadePassageiros = capacidadePassageiros;
+    }
+
+    public int getCapacidadePassageiros() {
+        return capacidadePassageiros;
+    }
+    public void setCapacidadePassageiros(int capacidadePassageiros) {
+        this.capacidadePassageiros = capacidadePassageiros;
+    }
+
+    @Override
+    public void mover() {
+        System.out.println(getMarca() + " " + getModelo() + " está transportando passageiros pela cidade.");
+    }
 }
