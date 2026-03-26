@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicio.pkg3;
+package exercicio3;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Gerente {
+public class Exercicio3 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }

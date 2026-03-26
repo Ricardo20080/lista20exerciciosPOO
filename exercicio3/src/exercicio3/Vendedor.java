@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package exercicio.pkg3;
+package exercicio3;
 
 /**
  *
  * @author aluno.saolucas
  */
-public class Programador {
+public class Vendedor {
     
 }
